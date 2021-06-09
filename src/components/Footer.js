@@ -12,12 +12,12 @@ const Footer = ({ references }) => {
         If you think this note resonated, be it positive or negative, send me a{' '}
         <Styled.a
           sx={{ textDecoration: 'underline', color: 'text-light' }}
-          href="https://twitter.com/messages/compose?recipient_id="
+          href="https://twitter.com/messages/compose?recipient_id=_pbamotra_"
         >
           direct message
         </Styled.a>{' '}
         on Twitter or an{' '}
-        <Styled.a sx={{ textDecoration: 'underline', color: 'text-light' }} href="#">
+        <Styled.a sx={{ textDecoration: 'underline', color: 'text-light' }} href="mailto:pankesh.bamotra@gmail.com">
           email
         </Styled.a>{' '}
         and we can talk.
