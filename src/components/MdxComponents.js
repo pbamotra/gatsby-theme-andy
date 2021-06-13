@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from 'react';
 import { LinkToStacked } from './CustomLinkToStacked';
-import { Link } from 'gatsby';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 import { jsx } from 'theme-ui';
 
 import Tippy from './Tippy';
@@ -9,6 +9,7 @@ import Tippy from './Tippy';
 const AnchorTag = ({ href, popups = {}, noPopups = false, ...restProps }) => {
   if (!href) href = restProps.to;
   if (!href.match(/^http/))
+  href = href.replace('/second-brain', '');
     return noPopups ? (
       <Link {...restProps} to={href} sx={{ variant: 'links.internal' }} />
     ) : (
