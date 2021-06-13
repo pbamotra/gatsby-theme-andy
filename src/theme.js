@@ -1,3 +1,6 @@
+import "/_assets/et-book/et-book.css"
+
+
 export default {
   colors: {
     text: '#333',
@@ -14,7 +17,7 @@ export default {
   radii: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
     body:
-      'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+      'et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif',
     heading: 'inherit',
     monospace: 'Menlo, monospace',
   },
