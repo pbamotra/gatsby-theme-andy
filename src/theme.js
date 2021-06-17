@@ -50,6 +50,7 @@ export default {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
+      fontSize: '18px'
     },
     h1: {
       color: 'text',
