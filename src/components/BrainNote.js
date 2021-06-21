@@ -29,7 +29,7 @@ const BrainNote = ({ note }) => {
   return (
     <ThemeProvider theme={theme} components={{ ...components, a: AnchorTagWithPopups }}>
       <div sx={{ flex: '1' }}>
-        <Styled.h1 sx={{ my: 3 }}>{note.title}</Styled.h1>
+        <Styled.h1 sx={{ my: 3 , fontStyle: 'italic'}}>{note.title}</Styled.h1>
         <MDXRenderer>{note.childMdx.body}</MDXRenderer>
       </div>
 

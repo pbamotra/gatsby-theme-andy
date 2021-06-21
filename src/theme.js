@@ -1,4 +1,4 @@
-import "/_assets/et-book/et-book.css"
+import "/_assets/et-book/et-book.css";
 
 
 export default {
