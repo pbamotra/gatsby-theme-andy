@@ -13,7 +13,7 @@ const home = <FontAwesomeIcon icon={faHome} />;
 export default ({ siteMetadata }) => (
   <header>
     <Box py={2} px={3} sx={{ borderBottom: '1px solid', borderColor: 'gray', fontStyle: 'italic'}}>
-      <Link to="https://www.pankesh.com" sx={{ fontWeight: 'bold', color: 'text', textDecoration: 'none' }}>
+      <Link to="https://www.pankesh.com" sx={{ color: 'text', textDecoration: 'none' }}>
         {siteMetadata.title} {home}
       </Link>
     </Box>
