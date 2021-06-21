@@ -3,7 +3,7 @@ import "/_assets/et-book/et-book.css";
 
 export default {
   colors: {
-    text: '#333',
+    text: '#000000',
     'text-light': '#718096',
     background: '#fff',
     primary: '#3182ce',
