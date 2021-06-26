@@ -7,7 +7,7 @@ export default {
     'text-light': '#718096',
     background: '#fff',
     primary: '#3182ce',
-    links: '#1e0b74',
+    links: '#3182ce',
     gray: '#dadada',
     accent: '#fafafc',
   },
