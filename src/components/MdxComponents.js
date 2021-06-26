@@ -9,7 +9,7 @@ import Tippy from './Tippy';
 const AnchorTag = ({ href, popups = {}, noPopups = false, ...restProps }) => {
   if (!href) href = restProps.to;
   if (!href.match(/^http/))
-  href = href.replace('/second-brain', '');
+  href = href.replace('/notes', '');
     return noPopups ? (
       <Link {...restProps} to={href} sx={{ variant: 'links.internal' }} />
     ) : (
