@@ -17,6 +17,7 @@ module.exports = ({
 }) => ({
   siteMetadata: {
     title: 'My Notes',
+    subtitle: 'Notes home'
   },
   plugins: [
     {
