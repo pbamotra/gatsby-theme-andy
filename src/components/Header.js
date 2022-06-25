@@ -11,7 +11,7 @@ config.autoAddCss = false;
 
 export default ({ siteMetadata }) => (
   <header>
-    <Box py={2} px={3} sx={{ borderBottom: '1px solid', borderColor: 'gray'}}>
+    <Box py={2} px={3} sx={{ borderBottom: '1px solid gray', borderTop: '10px solid #fec444'}}>
       <Link to="https://www.pankesh.com" sx={{ color: 'text', textDecoration: 'none', fontWeight: 'bold', }}>
         {siteMetadata.title}
       </Link>
